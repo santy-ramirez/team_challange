@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-size: 18px;
+    
+}
+
+.content{
+    width: 95%;
+    margin: 0 auto;
+}
+h1{
+    font-family: PT Serif, serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: -0.045em;
+padding: 3em 2em 0 0;
+}
+
+h2{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+padding: 2em 4em 0 0;
+}
+.parrafo__general{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+
+    padding-top: 1em;
+    max-width: 20em;
+}
+.content__imagen{
+    
+    display: grid;
+    padding: 0 1em;
+   grid-template-columns: repeat(2, 1fr);
+   
+   column-gap: 1em;
+   row-gap: 1em;
+   justify-content: center;
+   max-width: 400px;
+   margin:0 auto;
+}
+.imagen{
+    background-color: yellow;
+    position: relative;
+    min-width: 9em;
+    max-width: 9em;
+}
+.imagen-change{
+    padding-top: 3em;
+}
+
+.image{
+        
+}
+.ocupation{
+    border: violet solid;
+    width: 8em;
+    height: 1em;
+    position: absolute;
+    top: 4em;
+    right: -3em;
+    transform: rotate(90deg);
+
+    font-family: PT Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 13px;
+text-transform: uppercase;
+}
+.ocupation-change{
+    top: 10em;
+   /* right: -3em;*/
+}
+.name{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+}
+.footer{
+    
+        font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+    
+}
+
+
+@media screen and (min-width:700px) {
+    .imagen{
+        background-color: red
+    }
+    .content__imagen{
+    
+        display: grid;
+        
+       grid-template-columns: repeat(3, 1fr);
+       
+       
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+        border: red solid;
+        align-items: flex-start;
+    }
+  h1{
+    padding: 1em 2em 0 0;
+  }
+}
